@@ -1,4 +1,4 @@
-package problema1;
+package parte1;
 
 import java.util.Scanner;
 
@@ -8,17 +8,19 @@ public class problema4 {
 		
 		Scanner sc = new Scanner(System.in);
 		
+		Double primeraNota;
+		
+		Double segundaNota;
+		
 		System.out.println("Dime la primera nota");
 		
-		Double primeraNota = sc.nextDouble();
+		primeraNota= sc.nextDouble();
 		
 		System.out.println("Dime la segunda nota");
 		
-		Double segundaNota = sc.nextDouble();
+		segundaNota= sc.nextDouble();
 		
-		Double media = (primeraNota + segundaNota) / 2;
-		
-		System.out.println("La media artimetica de tus notas es: " + media);
+		System.out.println("La media artimetica de tus notas es: " + (primeraNota + segundaNota)/2);
 
 		sc.close();
 	}

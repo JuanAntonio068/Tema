@@ -1,4 +1,4 @@
-package problema1;
+package parte1;
 
 import java.util.Scanner;
 
@@ -7,11 +7,15 @@ public class problema8 {
 
 		Scanner sc = new Scanner(System.in);
 		
+		String nombre;
+		
+		int edad;
+		
 		System.out.println("Dime tu nombre y tu edad");
 		
-		String nombre = sc.nextLine();
+		nombre= sc.nextLine();
 		
-		int edad = sc.nextInt();
+		edad= sc.nextInt();
 		
 		System.out.println("Hola " + nombre + " , tienes " + edad + " años, ¡qué mayor eres!");
 

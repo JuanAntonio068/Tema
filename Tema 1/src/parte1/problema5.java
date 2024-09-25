@@ -1,4 +1,4 @@
-package problema1;
+package parte1;
 
 import java.util.Scanner;
 
@@ -8,13 +8,19 @@ public class problema5 {
 		
 		Scanner sc = new Scanner(System.in);
 		
+		Double radio;
+		
+		Double longitud;
+		
+		Double area;
+		
 		System.out.println("Introduce el radio de la circunferencia");
 		
-		Double radio = sc.nextDouble();
+		radio= sc.nextDouble();
 		
-		Double longitud = (2 * Math.PI) * radio;
+		longitud= (2 * Math.PI) * radio;
 		
-		Double area = Math.PI * (radio * radio);
+		area= Math.PI * (radio * radio);
 		
 		System.out.println("La longitud de la circuferencia es: " + longitud + " y el área de la circunferencia es: " + area);
 	

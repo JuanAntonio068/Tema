@@ -1,4 +1,4 @@
-package problema1;
+package parte1;
 
 import java.util.Scanner;
 
@@ -8,13 +8,19 @@ public class problema7 {
 
 		Scanner sc = new Scanner(System.in);
 		
+		String nombre;
+		
+		String direccion;
+		
+		int telefono;
+		
 		System.out.println("Dime su nombre, dirección y teléfono");
 		
-		String nombre = sc.nextLine();
+		nombre= sc.nextLine();
 		
-		String direccion = sc.nextLine();
+		direccion= sc.nextLine();
 		
-		int telefono = sc.nextInt();
+		telefono= sc.nextInt();
 		
 		System.out.println("Nombre: " + nombre);
 		
