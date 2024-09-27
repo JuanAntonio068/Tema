@@ -8,7 +8,7 @@ public class problema14 {
 		
 		Scanner sc= new Scanner(System.in);
 System.out.println("hola");
-		
+		//pedo
 	}
 
 }
