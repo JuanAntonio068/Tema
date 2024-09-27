@@ -4,22 +4,22 @@ import java.util.Scanner;
 
 public class problema08 {
 	public static void main(String[] args) {
-
-		Scanner sc = new Scanner(System.in);
 		//Declaramos el escaner
-		String nombre;
+		Scanner sc = new Scanner(System.in);
 		//Declaramos la variable "nombre"
-		int edad;
+		String nombre;
 		//Declaramos la variable "edad"
-		System.out.println("Dime tu nombre y tu edad");
+		int edad;
 		//Preguntamos al usuario su nombre y edad
-		nombre= sc.nextLine();
+		System.out.println("Dime tu nombre y tu edad");
 		//En la variable "nombre" se guarda el primer valor establecido
-		edad= sc.nextInt();
+		nombre= sc.nextLine();
 		//En la variable "edad" se guarda el segundo valor establecido
-		System.out.println("Hola " + nombre + " , tienes " + edad + " años, ¡qué mayor eres!");
+		edad= sc.nextInt();
 		//Imprimimos el resultado
-		sc.close();
+		System.out.println("Hola " + nombre + " , tienes " + edad + " años, ¡qué mayor eres!");
 		//Cerramos el escaner
+		sc.close();
+		
 	}
 }

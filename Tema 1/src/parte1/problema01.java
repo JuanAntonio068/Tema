@@ -5,19 +5,19 @@ import java.util.Scanner;
 public class problema01 {
 
 	public static void main(String[] args) {
-		
-		Scanner sc = new Scanner(System.in);
 		//Declaramos el escaner
-		Short numero;
+		Scanner sc = new Scanner(System.in);
 		//Declaramos la variable "numero"
-		System.out.println("Escribe un número");
+		Short numero;
 		//Preguntamos al usuario que es escriba un número
-		numero = sc.nextShort();
+		System.out.println("Escribe un número");
 		//En la variable "numero" se guarda el valor introducido
-		System.out.println("Ha escrito: " + numero);
+		numero = sc.nextShort();
 		//Imprimimos el resultado
-		sc.close();
+		System.out.println("Ha escrito: " + numero);
 		//Cerramos el escaner
+		sc.close();
+		
 	}
 
 }

@@ -5,28 +5,29 @@ import java.util.Scanner;
 public class probelma03 {
 
 	public static void main(String[] args) {
-		Scanner sc = new Scanner(System.in);
 		//Declaramos el escaner
-		int actual;
+		Scanner sc = new Scanner(System.in);
 		//Declaramos la variable "actual"
-		int nacimiento;
+		int actual;
 		//Declaramos la variable "nacimiento"
-		int edad;
+		int nacimiento;
 		//Declaramos la variable "edad"
-		System.out.println("Dime el año acutal");
+		int edad;
 		//Le preguntamos al usuario que nos diga el año actual
-		actual= sc.nextInt();
+		System.out.println("Dime el año acutal");
 		//En la variable "actual" se guarda el valor establecido
-		System.out.println("Dime tu año de nacimiento");
+		actual= sc.nextInt();
 		//Le preguntamos al usuario que nos diga su año de nacimiento
-		nacimiento= sc.nextInt();
+		System.out.println("Dime tu año de nacimiento");
 		//En la variable "nacimiento" se guarda el valor establecido
-		edad= actual - nacimiento;
+		nacimiento= sc.nextInt();
 		//En la variable "edad" se guarda el valor de la resta entre las variables "actual" y "nacimiento"
-		System.out.println("Tu edad es: " + edad);
+		edad= actual - nacimiento;
 		//Imprimmos el resultado
-		sc.close();
+		System.out.println("Tu edad es: " + edad);
 		//Cerramos el escaner
+		sc.close();
+		
 	}
 
 }

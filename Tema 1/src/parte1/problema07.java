@@ -5,31 +5,31 @@ import java.util.Scanner;
 public class problema07 {
 
 	public static void main(String[] args) {
-
-		Scanner sc = new Scanner(System.in);
 		//Declaramos el escaner
-		String nombre;
+		Scanner sc = new Scanner(System.in);
 		//Declaramos la variable "nombre"
-		String direccion;
+		String nombre;
 		//Declaramos la variable "direccion"
-		int telefono;
+		String direccion;
 		//Declaramos la variable "telefono"
-		System.out.println("Dime su nombre, dirección y teléfono");
+		int telefono;
 		//Preguntamos al usuario su nombre, dirección y teléfono
-		nombre= sc.nextLine();
+		System.out.println("Dime su nombre, dirección y teléfono");
 		//En la variable "nombre" se guarda el primer valor establecido
-		direccion= sc.nextLine();
+		nombre= sc.nextLine();
 		//En la variable "direccion" se guarda el segundo valor establecido
-		telefono= sc.nextInt();
+		direccion= sc.nextLine();
 		//En la variable "telefono" se guarda el tercer valor establecido
+		telefono= sc.nextInt();
+		//Imprimimos el resultado
 		System.out.println("Nombre: " + nombre);
 		//Imprimimos el resultado
 		System.out.println("Dirección: " + direccion);
 		//Imprimimos el resultado
 		System.out.println("Teléfono: " + telefono);
-		//Imprimimos el resultado
-		sc.close();
 		//Cerramos el escaner
+		sc.close();
+		
 	}
 
 }

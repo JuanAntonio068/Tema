@@ -5,33 +5,33 @@ import java.util.Scanner;
 public class problema12 {
 
 	public static void main(String[] args) {
-		
-		Scanner sc=new Scanner(System.in);
 		//Declaramos el escaner
-		float peras;
+		Scanner sc=new Scanner(System.in);
 		//Declaramos la variable "peras"
-		float manzanas;
+		float peras;
 		//Decalaramos la variable "manzanas"
-		float total;
+		float manzanas;
 		//Declaramos la variable "total"
-		final float PRECIOMAN= 2.35f;
+		float total;
 		//Declaramos la constante "PRECIOMAN", que será el precio de cada kilo de manzanas
-		final float PRECIOPER= 1.95f;
+		final float PRECIOMAN= 2.35f;
 		//Declaramos la constante "PRECIOPER", que será el precio de cada kilo de peras
-		System.out.println("¿Cuantos kilos de peras quieres?");
+		final float PRECIOPER= 1.95f;
 		//Le preguntamos al usuario cuantos kilos de peras quiere
-		peras=sc.nextFloat();
+		System.out.println("¿Cuantos kilos de peras quieres?");
 		//En la variable "pera" se guarda el valor introducido
-		System.out.println("¿Cuantos kilos de manzanas quieres?");
+		peras=sc.nextFloat();
 		//Le preguntamos al usuario cuantos kilos de manzanas quiere
-		manzanas=sc.nextFloat();
+		System.out.println("¿Cuantos kilos de manzanas quieres?");
 		//En la variable "manzana" se guarda el valor introducido
-		total=(peras*PRECIOPER)+(manzanas*PRECIOMAN);
+		manzanas=sc.nextFloat();
 		//En la variable total calculamos y guardamos el precio total 
-		System.out.println("El importe total es: " + total);
+		total=(peras*PRECIOPER)+(manzanas*PRECIOMAN);
 		//Imprimimos el resultado en la consola
-		sc.close();
+		System.out.println("El importe total es: " + total);
 		//Cerramos el escaner
+		sc.close();
+		
 	}
 
 }

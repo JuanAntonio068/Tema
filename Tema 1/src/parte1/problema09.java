@@ -5,23 +5,23 @@ import java.util.Scanner;
 public class problema09 {
 
 	public static void main(String[] args) {
-
-		Scanner sc = new Scanner(System.in);
 		//Declaramos el escaner
-		int edad;
+		Scanner sc = new Scanner(System.in);
 		//Declaramos la variable "edad"
-		boolean mayoria;
+		int edad;
 		//Declaramos la variable "mayoria"
-		System.out.println("Dime tu edad");
+		boolean mayoria;
 		//Preguntamos al usuairo su edad"
-		edad = sc.nextInt();
+		System.out.println("Dime tu edad");
 		//En la variable edad se guarda el valor establecido
-		mayoria = edad >= 18;
+		edad = sc.nextInt();
 		//En la variable "mayoria" se guuarda una comparacion
-		System.out.println(mayoria);
+		mayoria = edad >= 18;
 		//Imprimios el resultado
-		sc.close();
+		System.out.println(mayoria);
 		//Cerramos el escaner
+		sc.close();
+		
 	}
 
 }

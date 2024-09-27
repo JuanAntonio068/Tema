@@ -5,19 +5,19 @@ import java.util.Scanner;
 public class problema02 {
 
 	public static void main(String[] args) {
-		
-		Scanner sc = new Scanner(System.in);
 		//Declaramos el escaner
-		int edad;
+		Scanner sc = new Scanner(System.in);
 		//Declaramos la variable "edad"
-		System.out.println("Dime tu edad");
+		int edad;
 		//Preguntamos al usuario su edad
-		edad = sc.nextInt();
+		System.out.println("Dime tu edad");
 		//En la variable "edad" se guarda el valor establecido
-		System.out.println("El próximo año tendras " + ++edad);
+		edad = sc.nextInt();
 		//Aumentamos la variable "edad" en 1 e imprimimos el resultado
-		sc.close();
+		System.out.println("El próximo año tendras " + ++edad);
 		//Cerramos el escaner
+		sc.close();
+		
 	}
 
 }
