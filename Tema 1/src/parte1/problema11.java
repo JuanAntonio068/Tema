@@ -21,7 +21,7 @@ public class problema11 {
 		System.out.println("Equivale a " + euro + " euros");
 		// Cerramos el escaner
 		sc.close();
-		
+
 	}
 
 }
