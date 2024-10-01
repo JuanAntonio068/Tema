@@ -2,19 +2,23 @@ package parte1;
 
 import java.util.Scanner;
 
-public class problema02 {
+public class Problema09 {
 
 	public static void main(String[] args) {
 		// Declaramos el escaner
 		Scanner sc = new Scanner(System.in);
 		// Declaramos la variable "edad"
 		int edad;
-		// Preguntamos al usuario su edad
+		// Declaramos la variable "mayoria"
+		boolean mayoria;
+		// Preguntamos al usuairo su edad"
 		System.out.println("Dime tu edad");
-		// En la variable "edad" se guarda el valor establecido
+		// En la variable edad se guarda el valor establecido
 		edad = sc.nextInt();
-		// Aumentamos la variable "edad" en 1 e imprimimos el resultado
-		System.out.println("El próximo año tendras " + ++edad);
+		// En la variable "mayoria" se guuarda una comparacion
+		mayoria = edad >= 18;
+		// Imprimios el resultado
+		System.out.println(mayoria);
 		// Cerramos el escaner
 		sc.close();
 

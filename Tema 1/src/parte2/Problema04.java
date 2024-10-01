@@ -2,7 +2,7 @@ package parte2;
 
 import java.util.Scanner;
 
-public class problema04 {
+public class Problema04 {
 
 	public static void main(String[] args) {
 		// Declaramos el escaner
